@@ -1,0 +1,25 @@
+input{
+  margin-left: 20px;
+}
+.textbox-rounded{
+  
+  width:200px;
+  height: 40px;
+  font-size: 16px;
+  padding-left: 25px;
+  padding-right: 0;
+  border: 2px solid rgb(212, 211, 211);
+  border-radius: 10px;
+ 
+  
+}
+.shadow-noborder{
+  width:400px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  transition: box-shadow 0.15s;
+}
+.shadow-noborder:hover{
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.20);
+}

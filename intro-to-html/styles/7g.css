@@ -1,0 +1,37 @@
+
+
+.image-cat{
+  margin-top: 20px;
+  width:70px;
+  height: 70px;
+  object-fit:fill;
+  display: inline;
+  border-radius:100px;
+  vertical-align: middle;
+}
+
+span{
+  display: inline-block;
+  color:gray;
+  font-size: 18px;
+  font-family: sans-serif;
+  font-weight: 600;
+  margin-top: 23px;
+  margin-left: 20px;
+  width: 300px;
+vertical-align: middle;
+}
+
+.tweet{
+  margin-top: 30px;
+  vertical-align: middle;
+  width:100px;
+  padding:10px;
+  background-color: rgb(2, 155, 255);
+  color:white;
+  border: none;
+  border-radius: 20px;
+  font-weight: 680;
+  font-size: 15px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

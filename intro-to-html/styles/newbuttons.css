@@ -1,0 +1,57 @@
+.request-button{
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  background-color: rgba(0, 0, 0, 0.873);
+  color:white;
+  border: 2px;
+  font-weight: 600;
+  font-size: 14px;
+  text-align: center;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-color:rgba(0, 0, 0, 0.873) ;
+  cursor:pointer;
+  margin-right: 60px;
+  transition: box-shadow 0.15s;
+
+}
+.request-button:hover{
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.14);
+}
+
+.add-to-cart-button{
+padding-left: 30px;
+padding-right: 30px;
+padding-top:10px;
+padding-bottom: 10px;
+background-color: rgb(255, 216, 20);
+border-style: none;
+
+font-size: 17px;
+font-weight: 700;
+color:rgb(83, 80, 80);
+border-radius: 18px;
+transition: box-shadow 0.15s;
+}
+.add-to-cart-button:hover{
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.14);
+}
+
+.sign-up-button{
+  margin-left: 60px;
+  padding-top:13px;
+  padding-bottom: 13px;
+  padding-left: 20px;
+  padding-right:20px;
+  background-color: rgb(46, 164, 79);
+  color:white;
+  font-size: 16px;
+  font-weight: 700;
+  border-style: none;
+  border-radius: 6px;
+  transition: box-shadow 0.15s;
+}
+.sign-up-button:hover{
+  box-shadow: 5px 5px 9px rgba(0, 0, 0, 0.14);
+}

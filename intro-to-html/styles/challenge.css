@@ -1,0 +1,40 @@
+.one{
+  padding: 10px 20px;
+  color:white;
+  background-color: green;
+  font-size: 20px;
+  border: none;
+  margin-right: 20px;
+  transition: padding 0.15s;
+  cursor: pointer;
+}
+.one:hover{
+padding: 30px 40px;
+}
+.two{
+  padding: 10px 20px;
+  color:white;
+  background-color: green;
+  font-size: 20px;
+  border: none;
+  margin-right: 20px;
+  transition: padding 5ms;
+  cursor: pointer;
+}
+.two:active{
+  padding: 10px 30px;
+}
+
+.three{
+  padding: 10px 20px;
+  color:white;
+  background-color: green;
+  font-size: 20px;
+  border: none;
+  transition: margin 0.14s,padding 0.15s;
+}
+.three:hover{
+  margin: 0 20px;
+  padding: 10 20px;
+}
+
