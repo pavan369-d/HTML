@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>14E</title>
+    <style>
+      body{
+        height: 3000px;
+      }
+      .container{
+        display: flex;
+        position: fixed;
+        top:0px;
+        left: 0;
+        right:0;
+        padding:10px 50px;
+        
+        position: fixed;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+      .left-section,.right-section{
+        display: flex;
+        
+        align-items: center;
+        
+
+      }
+
+      .cat-img{
+        width: 40px;
+        height:40px;
+        object-fit: cover;
+        border-radius: 20px;
+        margin-right: 10px;
+      }
+      .profile-name{
+        font-family: Arial;
+        font-weight: bold;
+        
+      }
+     
+      button{
+        background-color: rgb(24,155,241);
+        color:white;
+        font-weight: bold;
+        border-radius:5px ;
+        border: none;
+        padding:8px 12px;
+      }
+      .message{
+        margin-left: 10px;
+        background-color: rgb(188, 187, 187);
+        font-weight: bold;
+        border-radius: 5px;
+        padding: 8px 12px;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="left-section">
+        <div class="cat-pic">
+          <img src="/HTML course/images/depositphotos_146078475-stock-photo-cute-funny-cat.jpg" class="cat-img">
+        </div>
+        <div class="profile-name">Oliver Cat</div>
+      </div>
+      <div class="right-section">
+        <button>Add Friend</button>
+        <div class="message">Message</div>
+      </div>
+    </div>
+  </body>
+</html>
